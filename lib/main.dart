@@ -1,4 +1,4 @@
-import 'package:books_system/view/main_tab/main_tab_view.dart';
+import 'package:books_system/view/onboarding/onboarding_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark(
         useMaterial3: true,
       ).copyWith(textTheme: GoogleFonts.interTextTheme()),
-      home: const MainTabView(),
+      home: const OnboardingView(),
     );
   }
 }
